@@ -1,6 +1,6 @@
-export const name = '';
+export const name = 'Collin Ashbaugh';
 
-export const email = '';
+export const email = 'collinashbaugh@gmail.com';
 
 export const phone = '801-201-2200';
 
