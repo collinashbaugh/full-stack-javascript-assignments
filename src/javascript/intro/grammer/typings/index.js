@@ -2,16 +2,17 @@ let Cat = function(name, color){
   this.name = name;
   this.color = color;
 }
+returnFunction();
 
 export default {
-  stringObj: null,
-  myString: null,
-  myNum: null,
-  myDecimal: null,
-  myFloat: null,
-  myFloat2: null,
+  stringObj: new String("Hello world"),
+  myString: 'Hello world',
+  myNum: 1,
+  myDecimal: 0.02,
+  myFloat: 0.1,
+  myFloat2: 0.2,
   myArrowFn: null,
-  myObj: null,
+  myObj: {},
   Cat: Cat,
   Fluffy: new Cat('Fluffy', 'white')
 };
